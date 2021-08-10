@@ -1,0 +1,60 @@
+.black {
+  background-color: black;
+  color: white;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+hr {
+  border: 1px solid orange;
+}
+
+footer {
+  text-align: center;
+}
+
+.flexBox-radioButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 15vh;
+  font-size: larger;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+}
+.main-container ul {
+  width: 100%;
+  padding-left: 0;
+}
+.main-container li {
+  list-style: none;
+  display: inline-block;
+  width: calc(100% / 4);
+  height: auto;
+  text-align: center;
+}
+.main-container li img {
+  border: 1px solid grey;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  height: 416px;
+  width: 280px;
+}
+.main-container li img:hover {
+  border: 1px solid orange;
+  transform: scale(1.05);
+}
+
+#search-input:focus {
+  outline: 1px solid orange;
+}/*# sourceMappingURL=index.css.map */

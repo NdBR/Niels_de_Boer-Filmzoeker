@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Film zoeker</title>
+    <script defer type="text/javascript" src="./JS/001_scriptdata.js"></script>
+    <script defer type="text/javascript" src="./JS/002_script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles/index.css">
+</head>
+
+<body class="black">
+    <header>
+        <header>
+            <h1>filmzoeker</h1>
+        </header>
+    </header>
+    <nav>
+        <div class="flexBox-radioButtons">
+            <div>
+                <span>Kies een filter:</span>
+            </div>
+            <div>
+                <input type="radio" id="all" name="radioButton" value="all">
+                <label for="all">Alle Films</label>
+            </div>
+            <div>
+                <input type="radio" id="nieuste" name="radioButton" value="Nieuwste">
+                <label for="nieuste">Films vanaf 2014</label>
+            </div>
+            <div>
+                <input type="radio" id="avengers" name="radioButton" value="Avengers">
+                <label for="avengers">Avengers</label>
+            </div>
+            <div>
+                <input type="radio" id="x-men" name="radioButton" value="X-Men">
+                <label for="x-men">X-Men</label>
+            </div>
+            <div>
+                <input type="radio" id="princess" name="radioButton" value="Princess">
+                <label for="princess">Princess</label>
+            </div>
+            <div>
+                <input type="radio" id="batman" name="radioButton" value="Batman">
+                <label for="batman">Batman</label>
+            </div>
+            <div>
+                <label for="searchField"> Search</label>
+                <input type="search" id="search-input" placeholder="press ENTER to search">
+            </div>
+        </div>
+
+    </nav>
+    <hr />
+
+    <main>
+        <div class="main-container">
+            <ul id="screen-list">
+
+            </ul>
+        </div>
+    </main>
+    <hr />
+    <footer>
+        <span>© Niels de Boer</span>
+    </footer>
+</body>
+
+</html>
